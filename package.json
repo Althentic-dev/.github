@@ -1,0 +1,13 @@
+{
+  "name": "althentic-profile-assets",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Generates the animated matrix-rain banner for the Althentic.dev organization profile README.",
+  "scripts": {
+    "generate:banner": "node scripts/generate-matrix-banner.js"
+  },
+  "dependencies": {
+    "canvas": "^2.11.2",
+    "gifencoder": "^2.0.1"
+  }
+}

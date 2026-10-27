@@ -1,0 +1,45 @@
+name: Generate Matrix Banner
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # daily at 00:00 UTC
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths:
+      - "scripts/generate-matrix-banner.js"
+      - "package.json"
+
+permissions:
+  contents: write
+
+jobs:
+  build-banner:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install native build deps (for node-canvas)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libcairo2-dev libpango1.0-dev libjpeg-dev libgif-dev librsvg2-dev
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Generate matrix banner GIF
+        run: npm run generate:banner
+
+      - name: Commit updated banner
+        run: |
+          git config user.name "althentic-bot"
+          git config user.email "althentic.dev@gmail.com"
+          git add profile/matrix-banner.gif
+          git diff --staged --quiet || git commit -m "chore: regenerate matrix banner [skip ci]"
+          git push
