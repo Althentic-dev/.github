@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="matrix-banner.gif" alt="Althentic.dev matrix banner" width="100%" />
+  <img src="banner.gif" alt="Althentic.dev matrix banner" width="100%" />
 
   <br />
   <br />
