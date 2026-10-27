@@ -92,21 +92,19 @@ No black-box output. You get the exact prompt, run it with the AI tool of your c
 
 ## Organization Activity
 
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Althentic-dev&show_icons=true&theme=tokyonight&bg_color=05070d&title_color=60a5fa&icon_color=3b82f6&text_color=9db7e8&border_color=1d4ed8&hide_border=false" alt="Althentic-dev GitHub stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Althentic-dev&layout=donut&theme=tokyonight&bg_color=05070d&title_color=60a5fa&text_color=9db7e8&border_color=1d4ed8&hide_border=false" alt="Top languages" />
-
-<br />
-
-<img src="https://streak-stats.demolab.com?user=Althentic-dev&theme=tokyonight&background=05070d&ring=3b82f6&fire=60a5fa&currStreakLabel=60a5fa&border=1d4ed8&hide_border=false" alt="GitHub streak stats" />
-
-</div>
-
-<br />
+Public metrics for the Althentic-dev organization, refreshed automatically.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Althentic-dev/.github/output/snake.gif" alt="Althentic-dev contribution snake" width="100%" />
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Althentic-dev&theme=github_dark&bg_color=05070d&title_color=60a5fa&text_color=9db7e8&icon_color=3b82f6&border_color=1d4ed8&hide_border=false" alt="Althentic-dev organization profile details" />
+
+<br />
+<br />
+
+[![Followers](https://img.shields.io/github/followers/Althentic-dev?style=flat-square&logo=github&label=Followers&color=3b82f6)](https://github.com/Althentic-dev)
+[![Last commit](https://img.shields.io/github/last-commit/Althentic-dev/.github?style=flat-square&logo=git&label=Last%20commit&color=3b82f6)](https://github.com/Althentic-dev/.github/commits/main)
+[![Contributors](https://img.shields.io/github/contributors/Althentic-dev/.github?style=flat-square&logo=github&label=Contributors&color=3b82f6)](https://github.com/Althentic-dev/.github/graphs/contributors)
+
 </div>
 
 <br />
